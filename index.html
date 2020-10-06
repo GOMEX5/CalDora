@@ -1,38 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>calculadora</title>
-<link type="text/css" href="estilos.css" rel="stylesheet"></link>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>CalDora</title>
 </head>
 <body>
-<div  class="calculadora">
-<form name="cal">
-<table>
-<tr>
-<td><input type="text" name="valor"  id="valor"disabled="true"></input></td>
-</tr>
-<tr>
-<td class="btn">
-<input type="button" name="siete"  class="but1" value="7" onClick="cal.valor.value +='7'"></input>
-<input type="button" name="ocho" class="but1" value="8" onClick="cal.valor.value +='8'"></input>
-<input type="button" name="nueve" class="but1" value="9" onClick="cal.valor.value +='9'"></input>
-<input type="button" name="division" class="but2" value="÷" onClick="cal.valor.value +='/'"></input><br/>
-<input type="button" name="cuatro"  class="but1" value="4" onClick="cal.valor.value +='4'"></input>
-<input type="button" name="cinco" class="but1" value="5" onClick="cal.valor.value +='5'"></input>
-<input type="button" name="seis" class="but1" value="6" onClick="cal.valor.value +='6'"></input>
-<input type="button" name="multiplicacion" class="but2" value="×" onClick="cal.valor.value +='*'"></input><br/>
-<input type="button" name="uno" class="but1" value="1" onClick="cal.valor.value +='1'"></input>
-<input type="button" name="dos"  class="but1" value="2" onClick="cal.valor.value +='2'"></input>
-<input type="button" name="tres" class="but1"  value="3" onClick="cal.valor.value +='3'"></input>
-<input type="button" name="resta" class="but2" value="-" onClick="cal.valor.value +='-'"></input><br/>
-<input type="button" name="limpiar" class="but2" value="c" onClick="reset();"></input>
-<input type="button" name="cero" class="but1" value="0" onClick="cal.valor.value +='0'"></input>
-<input type="button" name="igual" class="but2" value="=" onClick= "resultado();"></input>
-<input type="button" name="suma" class="but2" value="+" onClick="cal.valor.value +='+'"></input><br/>
-</td>
-</tr>
-</table>
-</form>
-</div>
-<script src="app.js"></script>
+	<div class="contenedor">
+		<form name="cal">
+			<div class="pantalla">
+				<input type="text" name="valor"  id="valor"disabled="true"></input></td>
+			</div>
+			<div class="botones">
+				<div class="btn">
+				<input type="button" name="siete"  class="but1" value="7" onClick="cal.valor.value +='7'"></input>
+				<input type="button" name="ocho" class="but1" value="8" onClick="cal.valor.value +='8'"></input>
+				<input type="button" name="nueve" class="but1" value="9" onClick="cal.valor.value +='9'"></input>
+				<input type="button" name="division" class="but2" value="÷" onClick="cal.valor.value +='/'"></input><br/>
+				<input type="button" name="cuatro"  class="but1" value="4" onClick="cal.valor.value +='4'"></input>
+				<input type="button" name="cinco" class="but1" value="5" onClick="cal.valor.value +='5'"></input>
+				<input type="button" name="seis" class="but1" value="6" onClick="cal.valor.value +='6'"></input>
+				<input type="button" name="multiplicacion" class="but2" value="×" onClick="cal.valor.value +='*'"></input><br/>
+				<input type="button" name="uno" class="but1" value="1" onClick="cal.valor.value +='1'"></input>
+				<input type="button" name="dos"  class="but1" value="2" onClick="cal.valor.value +='2'"></input>
+				<input type="button" name="tres" class="but1"  value="3" onClick="cal.valor.value +='3'"></input>
+				<input type="button" name="resta" class="but2" value="-" onClick="cal.valor.value +='-'"></input><br/>
+				<input type="button" name="limpiar" class="but2" value="c" onClick="reset();"></input>
+				<input type="button" name="cero" class="but1" value="0" onClick="cal.valor.value +='0'"></input>
+				<input type="button" name="igual" class="but2" value="=" onClick= "resultado();"></input>
+				<input type="button" name="suma" class="but2" value="+" onClick="cal.valor.value +='+'"></input><br/>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="app.js"></script>
 </body>
 </html>

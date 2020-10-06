@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	 background:#262626;
+    overflow-y: hidden;
+     overflow-x: hidden;
+}
+.contenedor{
+    background: linear-gradient(to bottom, #2CBCC1, #702CC1,#9E2CC1);
+    width: 400px;
+    height: 667px;
+}
+.pantalla{
+    /*background: red;*/
+    width: 100%;
+    height: 140px;
+}
+.botones{
+	/*background: yellow;*/
+    width: 100%;
+    height: 533px;
+    padding-top: 10px;
+}
+#valor{
+	width: 95%;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 2%;
+    text-align:center;
+    font-size:50px;
+    line-height: 100px;
+    background-color:#fff;
+    border-radius: 2px;
+    color:#9E2CC1;
+    border: #702CC1 2px solid;
+}
+.but1{
+	width:24%;
+    height:110px;
+    border-radius: 2px;
+    font-size:25px;
+    margin-bottom: 2px;
+    border: #fff 2px solid;
+    color:#fff;
+    background-color:#2CBEC1;
+}
+.but2{
+	width:24%;
+    height:110px;
+     border-radius: 2px;
+    color:#702CC1;
+    font-size:25px;
+    margin-bottom: 2px;
+    border: #702CC1 2px solid;
+}
+.btn{
+	/*background: red;*/
+	width: 95%;
+    height: 500px;
+    margin-left: 2.5%;
+}
